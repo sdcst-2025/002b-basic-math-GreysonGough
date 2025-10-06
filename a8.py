@@ -14,3 +14,13 @@ You may use either the ** operator or math.pow(x,y) for your exponents
 You may use either math.sqrt(x) or the exponent to the power of 0.5 for your square root
 
  '''
+
+a = 5
+b = 8
+
+Csquared = a**2+b**2
+C = Csquared**0.5
+numDecimal = 1
+C = round(C,numDecimal)
+
+print(C)
